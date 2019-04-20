@@ -1,0 +1,259 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Locus web interface</title>
+	<link rel="stylesheet" href="styles/main.css">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" href="styles/preloader.css">
+</head>
+<body>
+	<!-- Loader (page on load) -->
+	<div class="preloader_wrapper">
+		<div class="cssload-container">
+			<div class="cssload-crazy-arrow"></div>
+		</div>
+	</div>
+
+
+	<div class="modalAddTrack">
+		<div class="modalAddHeader">Add a new track</div>
+		<div class="modalContent">
+			<div class="modalAddDiv">Give a name:</div>
+			<div class="modalInput modalInputName"><input placeholder="e.g.: Laptop detail" type="text"></div>
+			<div class="modalAddDiv">Enter track code:</div>
+			<div class="modalInput modalInputCode"><input placeholder="SZ454997513US" type="text"></div>
+			<button>Save track</button>
+		</div>
+		<div class="modalClose">
+			<button>Close</button>
+		</div>
+	</div>
+
+
+
+	<!-- ABOUT DEVELOPER INFO -->
+	<div class="aboutAppDeveloper">
+		<div class="infoAboutTab">
+			<div>
+				<img src="appInfo/airplane_logo.jpg" alt="">
+			</div>
+			<div>Locus - post tracker application for free using.</div>
+			<br>
+			<div>Powered by <a href="http://www.DATAPROGER.gq/">DATAPROGER</a> | 2019</div>
+			<div>Author: Nurbek Ismoilov</div>
+			<br>
+			<div>ALL RIGHTS RESERVED</div>
+		</div>
+		<div class="exitAboutTab">
+			<button class="closeAboutAppInfoBtn">CLOSE</button>
+		</div>
+	</div>
+
+
+
+
+
+	<!-- HEADER NAVBAR ELEMENTS -->
+	<div class="wrapper">
+		<div class="header wrapper_flex">
+			<div class="head_column">
+				<img class="about_btn" src="./control_elements/navbar/about2.png" alt="">
+			</div>
+			<div class="head_column">
+				<img class="header_appName" src="./control_elements/navbar/Header_AppName.png" alt="">
+			</div>
+			<div class="head_column">
+				<img class="plus_btn" src="./control_elements/navbar/plus.png" alt="">
+			</div>
+		</div>
+
+
+	<!-- SORT TAB BAR -->
+		<div class="SortTab wrapper_flex">
+			<div class="sortTabItem">
+				All
+			</div>
+			<div class="sortTabItem trackable">
+				<span class="round1">&#10061;</span>Trackable
+			</div>
+			<div class="sortTabItem untrackable">
+				<span class="round2">&#10061;</span>Untrackable
+			</div>
+			<div class="sortTabItem delivered">
+				<span class="round3">&#10061;</span>Delivered
+			</div>
+
+			<div class="tabViewName Archive">
+				Archive
+			</div>
+			<div class="tabViewName Discount">
+				Suggestions
+			</div>
+			<div class="tabViewName Account">
+				Account
+			</div>
+		</div>
+
+
+
+		<!-- PAGE: LIST OF POST TRACK NUMBERS -->
+		<div class="ListArea wrapper_flex">
+
+			<div class="trackNumbers">
+
+
+			</div>
+
+
+
+		<!-- PAGE: TRACK ARCHIVES -->
+			<div class="trackArchives">
+				<div class="trackCard">
+					<div class="trackStatusIcon">
+						<img src="control_elements/status/arrow_delivered.png" alt="">
+					</div>
+
+					<div class="trackStatusInfo">
+						<div class="trackNumberCode">
+							СХ417008494US
+						</div>
+						<div class="trackName">
+							Iphone X from USA
+						</div>
+						<div class="trackLocation">
+							Russian Federation, Tyumen 625026, Arrival at inward office exchange...
+						</div>
+					</div>
+					<div class="action_show_delete">
+						<img src="control_elements/actions/arrow_action_show.png" alt="">
+					</div>
+					<div class="deleteButton">
+						Delete
+					</div>
+				</div>
+			</div>
+
+
+		<!-- PAGE: DISCOUNT SUGGESTIONS -->
+			<div class="discountsTab">
+
+				<div class="discountRow">
+					<div class="discountItem">
+						<img src="discounts/item1.jpg" alt="">
+						<a href="https://www.google.com">Go to</a>
+					</div>
+					<div class="discountItem">
+						<img src="discounts/item2.jpg" alt="">
+						<a href="https://www.google.com">Go to</a>
+					</div>
+				</div>
+
+				<div class="discountRow">
+					<div class="discountItem">
+						<img src="discounts/item3.jpg" alt="">
+						<a href="https://www.google.com">Go to</a>
+					</div>
+					<div class="discountItem">
+						<img src="discounts/item4.jpg" alt="">
+						<a href="https://www.google.com">Go to</a>
+					</div>
+				</div>
+
+
+				<div class="discountRow">
+					<div class="discountItem">
+						<img src="discounts/item1.jpg" alt="">
+						<a href="https://www.google.com">Go to</a>
+					</div>
+					<div class="discountItem">
+						<img src="discounts/item2.jpg" alt="">
+						<a href="https://www.google.com">Go to</a>
+					</div>
+				</div>
+
+				<div class="discountRow">
+					<div class="discountItem">
+						<img src="discounts/item3.jpg" alt="">
+						<a href="https://www.google.com">Go to</a>
+					</div>
+					<div class="discountItem">
+						<img src="discounts/item4.jpg" alt="">
+						<a href="https://www.google.com">Go to</a>
+					</div>
+				</div>
+
+
+				<div class="discountRow">
+					<div class="discountItem">
+						<img src="discounts/item1.jpg" alt="">
+						<a href="https://www.google.com">Go to</a>
+					</div>
+					<div class="discountItem">
+						<img src="discounts/item2.jpg" alt="">
+						<a href="https://www.google.com">Go to</a>
+					</div>
+				</div>
+
+				<div class="discountRow">
+					<div class="discountItem">
+						<img src="discounts/item3.jpg" alt="">
+						<a href="https://www.google.com">Go to</a>
+					</div>
+					<div class="discountItem">
+						<img src="discounts/item4.jpg" alt="">
+						<a href="https://www.google.com">Go to</a>
+					</div>
+				</div>
+
+			</div>
+
+
+
+
+		<!-- PAGE: ACCOUNT (FACEBOOK, GOOGLE) -->
+			<div class="accountTab">
+				<div class="accountLoginHeader">Sign in with:</div>
+				<div class="facebookBtn socialHover">
+					<img src="control_elements/socials/fb_logo.png" alt="">
+					<div>Facebook</div>
+				</div>
+				<div class="googlePlusBtn socialHover">
+					<img src="control_elements/socials/google_plus_logo.png" alt="">
+					<div>Google+</div>
+				</div>
+			</div>
+
+
+		</div>
+
+
+
+		<!-- TABS AREA (TRACKS, ARCHIVE, DISCOUNTS, ACCOUNT) -->
+		<div class="TabNavigator wrapper_flex">
+			<div class="tabNavItem">
+				<img class="tabNavIcon TabList selectedTab" src="./control_elements/tabs/tab_posts_transparent.png" alt="">
+			</div>
+			<div class="tabNavItem">
+				<img class="tabNavIcon TabArchive" src="./control_elements/tabs/tab_archive_transparent.png" alt="">
+			</div>
+			<div class="tabNavItem">
+				<img class="tabNavIcon TabDiscount" src="./control_elements/tabs/tab_discounts_transparent.png" alt="">
+			</div>
+			<div class="tabNavItem">
+				<img class="tabNavIcon TabAccount" src="./control_elements/tabs/tab_account_transparent.png" alt="">
+			</div>
+		</div>
+
+	</div>
+
+
+
+
+	<script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/main_app_script.js"></script>
+</body>
+</html>
